@@ -1,0 +1,29 @@
+<project name="RevXT-SS19-g04" basedir="." default="clean-build">
+
+  <property name="src.dir"        value="src"/>
+  <property name="out.dir"        value="out/production/RevXT-SS19-g04"/>
+  <property name="bin.dir"        value="bin"/>
+  <property name="main-class"     value="HelperClassNetwork"/>
+
+
+  <target name="clean">
+    <delete dir="${out.dir}"/>
+    <delete dir="${bin.dir}"/>
+  </target>
+
+  <target name="compile">
+    <mkdir dir="${out.dir}"/>
+    <javac srcdir="${src.dir}" destdir="${out.dir}"/>
+  </target>
+
+  <target name="jar" depends="compile">
+    <mkdir dir="${bin.dir}"/>
+    <jar destfile="${bin.dir}/client04.jar" basedir="${out.dir}">
+      <manifest>
+        <attribute name="Main-Class" value="${main-class}"/>
+      </manifest>
+    </jar>
+  </target>
+
+  <target name="clean-build" depends="clean,jar"/>
+</project>

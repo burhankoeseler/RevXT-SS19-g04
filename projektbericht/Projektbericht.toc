@@ -1,0 +1,20 @@
+\babel@toc {ngerman}{}
+\contentsline {section}{\numberline {1}Einleitung}{1}{section.1}% 
+\contentsline {section}{\numberline {2}Allgemeine Informationen}{3}{section.2}% 
+\contentsline {subsection}{\numberline {2.1}Team und Kommunikation}{3}{subsection.2.1}% 
+\contentsline {subsection}{\numberline {2.2}Technische Daten}{3}{subsection.2.2}% 
+\contentsline {subsection}{\numberline {2.3}Datenstruktur}{4}{subsection.2.3}% 
+\contentsline {section}{\numberline {3}Spielfeldbewertung}{6}{section.3}% 
+\contentsline {subsection}{\numberline {3.1}Kurz\IeC {\"u}bersicht}{6}{subsection.3.1}% 
+\contentsline {subsection}{\numberline {3.2}Tiefenheuristik}{6}{subsection.3.2}% 
+\contentsline {subsection}{\numberline {3.3}Kurzschlussheuristik}{8}{subsection.3.3}% 
+\contentsline {subsection}{\numberline {3.4}Override Mode}{9}{subsection.3.4}% 
+\contentsline {section}{\numberline {4}Statistiken}{10}{section.4}% 
+\contentsline {subsection}{\numberline {4.1}Vergleich von Paranoid-Suche mit $\boldsymbol {\alpha }$-$\boldsymbol {\beta }$-Pruning}{10}{subsection.4.1}% 
+\contentsline {subsection}{\numberline {4.2}Gesamtvergleich (Tiefe = 2)}{12}{subsection.4.2}% 
+\contentsline {subsection}{\numberline {4.3}Gesamtvergleich (Tiefe = 4)}{12}{subsection.4.3}% 
+\contentsline {subsection}{\numberline {4.4}Gesamtvergleich (Tiefe = 6)}{12}{subsection.4.4}% 
+\contentsline {subsection}{\numberline {4.5}Gesamtvergleich (Zeit = 2 Sekunden)}{14}{subsection.4.5}% 
+\contentsline {section}{\numberline {5}Wettbewerbs-Spielfelder}{15}{section.5}% 
+\contentsline {section}{\numberline {6}Fazit}{18}{section.6}% 
+\contentsline {section}{\numberline {7}Quellenverzeichnis}{19}{section.7}% 

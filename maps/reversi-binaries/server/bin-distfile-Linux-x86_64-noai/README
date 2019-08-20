@@ -1,0 +1,77 @@
+
+This is REVERSI, (c) 2017 by i2 of RWTH-Aachen.de and OTH Regensburg
+
+This tarball is not meant for public distribution!
+
+List of authors:
+
+	Carsten Kern
+	Stefan Rieger
+	David R. Piegdon
+	Stefan Schulz
+
+This distribution package of REVERSI includes:
+
+	server_nogl:
+		game server, text-only version
+			you can disable ANSI-color and possible moves
+			(marked by single-quote right of field) via
+			command-line switches
+
+	server_gl: (Linux/Unix only)
+		game server, open-gl version
+			(keycodes see below in client_gl)
+
+	client_gl: (Linux/Unix only)
+		game client for humans, opengl-version
+
+		some notes on user interaction:
+		keyboard:
+			up/down/left/right:
+			     move board up/down/left/right a bit
+
+			'+'/'=':
+			     increase size of board
+
+			'-': decrease size of board
+
+			'c': center board
+
+			' ': center mouse-position
+			
+			't': toggle visibility of transitions
+
+			'v': toggle visibility of valid moves (only in first part of game)
+
+			'C': toggle visibility of corners (as calculated by gameboard::)
+
+			'q': quit
+
+		mouse:
+			left-click: select field to move to
+
+			left-click on a choice-field requires a second left-click:
+				click on a player to swap with him.
+
+			left-click on a bonus-field requires a second left-click:
+				click on an empty field to obtain a bomb,
+				click on an occupied field to obtain a override-stone
+	ai:
+		AI (text only), rather intelligent
+		implemented features:
+			good eval()-method,
+			move-sorting,
+			alpha/beta-pruning,
+
+	ai_trivial:
+		AI (text only), very trivial eval()-method
+		implemented features:
+			weak eval()-method (just counts stones of self and best opp),
+			move-sorting,
+			alpha/beta-pruning
+
+
+
+	For information about command-line arguments,
+	please refer to ``command --help''
+
